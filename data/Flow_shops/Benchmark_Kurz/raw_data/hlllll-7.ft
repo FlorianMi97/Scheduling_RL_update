@@ -1,0 +1,37 @@
+Filename hlllll-7.ft
+StageType 0
+NumJobs 7
+numstages 2
+lbnum 1
+lb 161
+ub 228
+
+stagenum 1
+NumMachs 1
+Ready
+0 0 0 0 0 0 0 
+Process
+21 72 0 68 0 0 0 
+Setup
+90000 0 0 0 0 0 0 
+9 90000 0 1 0 0 0 
+0 0 90000 0 0 0 0 
+21 21 0 90000 0 0 0 
+0 0 0 0 90000 0 0 
+0 0 0 0 0 90000 0 
+0 0 0 0 0 0 90000 
+
+stagenum 2
+NumMachs 1
+Ready
+0 0 0 0 0 0 0 
+Process
+20 66 0 0 0 67 0 
+Setup
+90000 2 0 0 0 4 0 
+6 90000 0 0 0 0 0 
+0 0 90000 0 0 0 0 
+0 0 0 90000 0 0 0 
+0 0 0 0 90000 0 0 
+24 21 0 0 0 90000 0 
+0 0 0 0 0 0 90000 

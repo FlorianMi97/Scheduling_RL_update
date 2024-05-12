@@ -1,0 +1,37 @@
+Filename hlllml-8.ft
+StageType 0
+NumJobs 7
+numstages 2
+lbnum 1
+lb 150
+ub 231
+
+stagenum 1
+NumMachs 2
+Ready
+0 0 0 0 0 0 0 
+Process
+19 76 0 0 0 55 59 
+Setup
+90000 4 0 0 0 4 5 
+10 90000 0 0 0 0 1 
+0 0 90000 0 0 0 0 
+0 0 0 90000 0 0 0 
+0 0 0 0 90000 0 0 
+23 19 0 0 0 90000 17 
+24 23 0 0 0 23 90000 
+
+stagenum 2
+NumMachs 2
+Ready
+0 0 0 0 0 0 0 
+Process
+20 0 64 0 0 0 68 
+Setup
+90000 0 1 0 0 0 4 
+0 90000 0 0 0 0 0 
+21 0 90000 0 0 0 24 
+0 0 0 90000 0 0 0 
+0 0 0 0 90000 0 0 
+0 0 0 0 0 90000 0 
+24 0 13 0 0 0 90000 

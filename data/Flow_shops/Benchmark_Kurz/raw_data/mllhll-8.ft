@@ -1,0 +1,37 @@
+Filename mllhll-8.ft
+StageType 1
+NumJobs 7
+numstages 2
+lbnum 3
+lb 511
+ub 541
+
+stagenum 1
+NumMachs 2
+Ready
+0 0 0 0 0 0 0 
+Process
+20 67 67 83 63 70 68 
+Setup
+90000 4 1 1 4 0 1 
+11 90000 3 0 4 5 0 
+9 12 90000 9 0 3 8 
+8 4 3 90000 7 3 0 
+12 6 9 0 90000 7 9 
+6 10 0 2 10 90000 6 
+7 4 7 4 0 6 90000 
+
+stagenum 2
+NumMachs 1
+Ready
+0 0 0 0 0 0 0 
+Process
+18 67 67 82 66 83 65 
+Setup
+90000 3 2 2 6 1 0 
+9 90000 3 8 2 7 0 
+8 0 90000 8 0 1 0 
+3 4 0 90000 0 2 1 
+12 6 8 0 90000 6 1 
+4 2 1 4 9 90000 0 
+5 7 4 4 5 0 90000 

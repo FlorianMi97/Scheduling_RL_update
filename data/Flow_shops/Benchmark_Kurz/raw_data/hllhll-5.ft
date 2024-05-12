@@ -1,0 +1,37 @@
+Filename hllhll-5.ft
+StageType 1
+NumJobs 7
+numstages 2
+lbnum 2
+lb 470
+ub 474
+
+stagenum 1
+NumMachs 4
+Ready
+0 0 0 0 0 0 0 
+Process
+19 0 0 0 68 0 0 
+Setup
+90000 0 0 0 5 0 0 
+0 90000 0 0 0 0 0 
+0 0 90000 0 0 0 0 
+0 0 0 90000 0 0 0 
+24 0 0 0 90000 0 0 
+0 0 0 0 0 90000 0 
+0 0 0 0 0 0 90000 
+
+stagenum 2
+NumMachs 1
+Ready
+0 0 0 0 0 0 0 
+Process
+18 65 80 78 79 63 85 
+Setup
+90000 4 4 0 6 4 1 
+10 90000 1 0 7 10 1 
+5 5 90000 0 0 1 2 
+6 0 10 90000 0 7 3 
+11 6 9 5 90000 0 2 
+9 2 2 0 11 90000 1 
+2 5 2 0 1 5 90000 

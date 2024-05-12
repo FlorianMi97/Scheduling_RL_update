@@ -1,0 +1,37 @@
+Filename mlllml-8.ft
+StageType 0
+NumJobs 7
+numstages 2
+lbnum 3
+lb 303
+ub 327
+
+stagenum 1
+NumMachs 2
+Ready
+0 0 0 0 0 0 0 
+Process
+21 68 81 71 69 67 72 
+Setup
+90000 3 1 1 0 3 3 
+12 90000 0 0 5 12 7 
+7 2 90000 0 1 5 9 
+9 6 0 90000 0 2 5 
+5 6 6 3 90000 0 3 
+12 10 5 6 0 90000 10 
+7 7 0 5 4 0 90000 
+
+stagenum 2
+NumMachs 2
+Ready
+0 0 0 0 0 0 0 
+Process
+17 76 70 76 80 65 65 
+Setup
+90000 4 0 6 4 5 1 
+8 90000 0 6 1 1 4 
+3 6 90000 9 7 8 0 
+9 7 0 90000 1 7 1 
+5 2 0 4 90000 1 2 
+10 0 5 9 9 90000 6 
+5 7 2 7 6 0 90000 

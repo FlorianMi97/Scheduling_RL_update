@@ -1,0 +1,37 @@
+Filename hhlhll-0.ft
+StageType 1
+NumJobs 7
+numstages 2
+lbnum 1
+lb 110
+ub 110
+
+stagenum 1
+NumMachs 4
+Ready
+0 0 0 0 0 0 0 
+Process
+22 88 0 0 66 0 0 
+Setup
+90000 0 0 0 0 0 0 
+8 90000 0 0 6 0 0 
+0 0 90000 0 0 0 0 
+0 0 0 90000 0 0 0 
+22 13 0 0 90000 0 0 
+0 0 0 0 0 90000 0 
+0 0 0 0 0 0 90000 
+
+stagenum 2
+NumMachs 1
+Ready
+0 0 0 0 0 0 0 
+Process
+21 0 0 0 0 31 0 
+Setup
+90000 0 0 0 0 1 0 
+0 90000 0 0 0 0 0 
+0 0 90000 0 0 0 0 
+0 0 0 90000 0 0 0 
+0 0 0 0 90000 0 0 
+22 0 0 0 0 90000 0 
+0 0 0 0 0 0 90000 
